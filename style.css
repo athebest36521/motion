@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    display: flex;
+  }
+  
+  ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    background-color: #111111;
+  }
+  nav {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;     /* Centers items vertically */
+    background-color: #333;  /* Example background */
+  }
+  
+  nav a {
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+  }
