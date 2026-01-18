@@ -22,20 +22,51 @@
 
 <body >
 <header>
-    <nav>
-    <ul>
-        <li><a href="index.html"><img src="home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
-        <li><a href="distance.html"><img src="distance_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></li>
-        <li><a href="settings.html"><img src="settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt=""></li>
-    </ul>
-</nav>
-</header>
-<main>
 
-</main>
-<footer>
-    <!-- place footer here -->
-</footer>
+</header>
+<main class="container text-center mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-5">
+      <h1 class="display-4 fw-bold serif-text">Measure</h1>
+      <div class="header-visuals">
+        <img src="distance_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="" width="60">
+        <img src="timer_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="" width="60">
+      </div>
+    </div>
+  
+    <div class="measurement-area my-5">
+      <div class="dashes">_ _ _ _ _</div>
+      <h2 class="serif-text">inches</h2>
+      <button class="btn btn-primary btn-lg rounded-4 px-5 py-3 mt-3 w-75">Start</button>
+    </div>
+  
+    <nav class="nav justify-content-between border-bottom border-secondary mb-4">
+      <a class="nav-link active text-white border-bottom border-primary border-3" href="#">Common</a>
+      <a class="nav-link text-white-50" href="#">Favorites</a>
+      <a class="nav-link text-white-50" href="#">Recents</a>
+    </nav>
+  
+    <div class="velocity-area py-4">
+      <div class="dashes-small">_ _ _</div>
+      <h3 class="serif-text">Velocity</h3>
+    </div>
+  </main>
+  
+  <footer class="container mt-auto pb-4">
+    <div class="row text-center">
+      <div class="col">
+        <img src="history_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="" width="50">
+        <p class="serif-text">History</p>
+      </div>
+      <div class="col">
+        <img src="settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="" width="50">
+        <p class="serif-text">Settings</p>
+      </div>
+      <div class="col">
+        <img src="compass_calibration_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="" width="50">
+        <p class="serif-text">Calibrate</p>
+      </div>
+    </div>
+  </footer>
 <!-- Bootstrap JavaScript Libraries -->
 <script
         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
